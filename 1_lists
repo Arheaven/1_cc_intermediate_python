@@ -1,0 +1,41 @@
+#All one needs to know about lists and how to use them!
+
+mylist = ["blueberry", "cherry", "strawberry"]
+print(mylist)
+
+mylist2 = list()
+print(mylist2) #It creates another bracket below when you print it.
+
+mylist3 = ["apple", 3, False, "Maxime Bournez"]
+print(mylist3)
+
+item = mylist3[1]
+print(item)
+
+#It is possible to use a loop to refer to all the items in a list.
+
+for x in mylist3:
+    print(x) #x makes it possible, we could also use other letters.
+
+if "banana" in mylist: #Check if your index is in the list
+    print("Yes, there's one.")
+else:
+    print("No man, no bananas.") #It works fine.
+
+print("xxxxxxxxxxxxxxxxxxxxx")
+
+#What other methods to use with lists?
+
+#Check all the elements quite fast
+print(len(mylist))
+
+#Add one element to the list
+mylist.append("john cena")
+print(mylist)
+
+#Insert an element somewhere in the list
+mylist.insert(1, "paul chesneau")
+print(mylist)
+
+#Remove an element somewhere in the list
+mylist.pop
